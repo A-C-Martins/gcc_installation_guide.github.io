@@ -1,0 +1,133 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+body
+{
+    background-color: rgb(3, 7, 41);
+}
+header
+{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+
+}
+header .logo
+{
+    color: rgb(244, 243, 248);
+    line-height: 70px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+/* =========================== main section ===================*/
+
+main
+{
+    width: 100%;
+    height: auto;
+    background-color: rgb(1, 1, 26);
+}
+
+main .container
+{
+    width: 60%;
+    height: auto;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: block;
+    left: 18em;
+    right: 20em;
+    
+}
+img
+{
+    width: 100%;
+    height: 300px;
+}
+h1,h2
+{
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+p
+{
+    width: 95%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10px 0 10px;
+}
+
+strong
+{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+ul
+{
+    width: 80%;
+    height: auto;
+    align-items: center;
+    list-style-type:decimal;
+    display: block;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+ul li
+{
+    text-align: left;
+}
+code
+{
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    color: beige;
+    border-radius: 5px;
+}
+button
+{
+    width: 15em;
+    height: 30px;
+    color: white;
+    background-color: red;
+    font-size: large;
+    border: 1px solid transparent;
+}
+
+.footer
+{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+}
+.footer h3
+{
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
